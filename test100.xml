@@ -1,15 +1,15 @@
 <object-stream>
   <main.Game>
     <user1>
-      <name>maja</name>
+      <name>asd</name>
       <points>0.0</points>
     </user1>
     <user2>
-      <name>par</name>
+      <name>asd</name>
       <points>0.0</points>
     </user2>
-    <name1>maja</name1>
-    <name2>par</name2>
+    <name1>asd</name1>
+    <name2>asd</name2>
     <board>
       <field-array>
         <field>
@@ -50,7 +50,8 @@
           <width>4</width>
           <length>0</length>
           <pawn>
-            <color>INVISIBLE</color>
+            <color>WHITE</color>
+            <moveBahaviour class="concreteStrategy.NormalMove" reference="../../../field/pawn/moveBahaviour"/>
           </pawn>
           <color>BLACK</color>
         </field>
@@ -110,7 +111,8 @@
           <width>3</width>
           <length>1</length>
           <pawn>
-            <color>INVISIBLE</color>
+            <color>WHITE</color>
+            <moveBahaviour class="concreteStrategy.NormalMove" reference="../../../../field-array/field/pawn/moveBahaviour"/>
           </pawn>
           <color>BLACK</color>
         </field>
@@ -171,7 +173,8 @@
           <width>2</width>
           <length>2</length>
           <pawn>
-            <color>INVISIBLE</color>
+            <color>WHITE</color>
+            <moveBahaviour class="concreteStrategy.NormalMove" reference="../../../../field-array/field/pawn/moveBahaviour"/>
           </pawn>
           <color>BLACK</color>
         </field>
@@ -187,7 +190,8 @@
           <width>4</width>
           <length>2</length>
           <pawn>
-            <color>INVISIBLE</color>
+            <color>WHITE</color>
+            <moveBahaviour class="concreteStrategy.NormalMove" reference="../../../../field-array/field/pawn/moveBahaviour"/>
           </pawn>
           <color>BLACK</color>
         </field>
@@ -230,7 +234,7 @@
           <width>1</width>
           <length>3</length>
           <pawn>
-            <color>WHITE</color>
+            <color>INVISIBLE</color>
             <moveBahaviour class="concreteStrategy.NormalMove" reference="../../../../field-array/field/pawn/moveBahaviour"/>
           </pawn>
           <color>BLACK</color>
@@ -248,6 +252,7 @@
           <length>3</length>
           <pawn>
             <color>INVISIBLE</color>
+            <moveBahaviour class="concreteStrategy.NormalMove" reference="../../../../field-array/field/pawn/moveBahaviour"/>
           </pawn>
           <color>BLACK</color>
         </field>
@@ -264,6 +269,7 @@
           <length>3</length>
           <pawn>
             <color>INVISIBLE</color>
+            <moveBahaviour class="concreteStrategy.NormalMove" reference="../../../../field-array/field/pawn/moveBahaviour"/>
           </pawn>
           <color>BLACK</color>
         </field>
@@ -290,7 +296,7 @@
           <width>0</width>
           <length>4</length>
           <pawn>
-            <color>WHITE</color>
+            <color>INVISIBLE</color>
             <moveBahaviour class="concreteStrategy.NormalMove" reference="../../../../field-array/field/pawn/moveBahaviour"/>
           </pawn>
           <color>BLACK</color>
@@ -308,6 +314,7 @@
           <length>4</length>
           <pawn>
             <color>INVISIBLE</color>
+            <moveBahaviour class="concreteStrategy.NormalMove" reference="../../../../field-array/field/pawn/moveBahaviour"/>
           </pawn>
           <color>BLACK</color>
         </field>
@@ -322,6 +329,50 @@
         <field>
           <width>4</width>
           <length>4</length>
+          <pawn>
+            <color>INVISIBLE</color>
+            <moveBahaviour class="concreteStrategy.NormalMove" reference="../../../../field-array/field/pawn/moveBahaviour"/>
+          </pawn>
+          <color>BLACK</color>
+        </field>
+        <field>
+          <width>5</width>
+          <length>4</length>
+          <pawn>
+            <color>INVISIBLE</color>
+          </pawn>
+          <color>WHITE</color>
+        </field>
+        <field>
+          <width>6</width>
+          <length>4</length>
+          <pawn>
+            <color>INVISIBLE</color>
+            <moveBahaviour class="concreteStrategy.NormalMove" reference="../../../../field-array/field/pawn/moveBahaviour"/>
+          </pawn>
+          <color>BLACK</color>
+        </field>
+        <field>
+          <width>7</width>
+          <length>4</length>
+          <pawn>
+            <color>INVISIBLE</color>
+          </pawn>
+          <color>WHITE</color>
+        </field>
+      </field-array>
+      <field-array>
+        <field>
+          <width>0</width>
+          <length>5</length>
+          <pawn>
+            <color>INVISIBLE</color>
+          </pawn>
+          <color>WHITE</color>
+        </field>
+        <field>
+          <width>1</width>
+          <length>5</length>
           <pawn>
             <color>BLACK</color>
             <moveBahaviour class="concreteStrategy.NormalMove" reference="../../../../field-array/field/pawn/moveBahaviour"/>
@@ -329,49 +380,6 @@
           <color>BLACK</color>
         </field>
         <field>
-          <width>5</width>
-          <length>4</length>
-          <pawn>
-            <color>INVISIBLE</color>
-          </pawn>
-          <color>WHITE</color>
-        </field>
-        <field>
-          <width>6</width>
-          <length>4</length>
-          <pawn>
-            <color>INVISIBLE</color>
-            <moveBahaviour class="concreteStrategy.NormalMove" reference="../../../../field-array/field/pawn/moveBahaviour"/>
-          </pawn>
-          <color>BLACK</color>
-        </field>
-        <field>
-          <width>7</width>
-          <length>4</length>
-          <pawn>
-            <color>INVISIBLE</color>
-          </pawn>
-          <color>WHITE</color>
-        </field>
-      </field-array>
-      <field-array>
-        <field>
-          <width>0</width>
-          <length>5</length>
-          <pawn>
-            <color>INVISIBLE</color>
-          </pawn>
-          <color>WHITE</color>
-        </field>
-        <field>
-          <width>1</width>
-          <length>5</length>
-          <pawn>
-            <color>INVISIBLE</color>
-          </pawn>
-          <color>BLACK</color>
-        </field>
-        <field>
           <width>2</width>
           <length>5</length>
           <pawn>
@@ -383,7 +391,8 @@
           <width>3</width>
           <length>5</length>
           <pawn>
-            <color>INVISIBLE</color>
+            <color>BLACK</color>
+            <moveBahaviour class="concreteStrategy.NormalMove" reference="../../../../field-array/field/pawn/moveBahaviour"/>
           </pawn>
           <color>BLACK</color>
         </field>
@@ -399,7 +408,8 @@
           <width>5</width>
           <length>5</length>
           <pawn>
-            <color>INVISIBLE</color>
+            <color>BLACK</color>
+            <moveBahaviour class="concreteStrategy.NormalMove" reference="../../../../field-array/field/pawn/moveBahaviour"/>
           </pawn>
           <color>BLACK</color>
         </field>
